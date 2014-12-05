@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles.css.html.css" rel="stylesheet" type="text/css" />
+<!-- TemplateParam name="secondarynav" type="boolean" value="true" -->
+<!-- TemplateParam name="references" type="boolean" value="true" -->
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="banners" -->
+<table width="1000">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<!-- TemplateEndEditable -->
+<table width="500">
+  <tr>
+    <th scope="col"><!-- TemplateBeginIf cond="secondarynav" -->secondarynav<!-- TemplateEndIf --></th>
+    <th scope="col"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></th>
+  </tr>
+</table>
+<table width="1000">
+  <tr>
+    <td><!-- TemplateBeginIf cond="references" -->references<!-- TemplateEndIf --></td>
+  </tr>
+</table>
+</body>
+</html>
