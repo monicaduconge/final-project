@@ -22,7 +22,7 @@
 <body><table width="900" border="5" cellspacing="5" cellpadding="30">
   <tr>
     <td><div class="wrapper">
-    	<div class="banner"><!-- TemplateBeginEditable name="banners" --><img src="../Images/bannerhomepage.jpg" width="900" height="250" alt="bannershome" /><!-- TemplateEndEditable --></div>
+    	<div class="banner"><!-- TemplateBeginEditable name="banners" --><!-- TemplateEndEditable --></div>
      </div>  
     </td>
   </tr>
