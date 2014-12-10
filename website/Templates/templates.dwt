@@ -10,28 +10,49 @@
 <link href="../styles.css.html.css" rel="stylesheet" type="text/css" />
 <!-- TemplateParam name="secondarynav" type="boolean" value="true" -->
 <!-- TemplateParam name="references" type="boolean" value="true" -->
+<!-- TemplateParam name="secondnav" type="boolean" value="true" -->
 </head>
 
-<body>
-<!-- TemplateBeginEditable name="banners" -->
-<table width="1000">
+<body><table width="900" border="5" cellspacing="5" cellpadding="30">
   <tr>
-    <td>&nbsp;</td>
+    <td><div class="wrapper">
+    	<div class="banner">
+        </div>
+     </div>  
+    </td>
   </tr>
   <tr>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-<!-- TemplateEndEditable -->
-<table width="500">
-  <tr>
-    <th scope="col"><!-- TemplateBeginIf cond="secondarynav" -->secondarynav<!-- TemplateEndIf --></th>
-    <th scope="col"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></th>
+    <td><div class="wrapper">
+    	<div class="navigation">
+        </div>
+    </div>  </td>
   </tr>
 </table>
-<table width="1000">
+<table width="900" border="10" cellspacing="10" cellpadding="45">
   <tr>
-    <td><!-- TemplateBeginIf cond="references" -->references<!-- TemplateEndIf --></td>
+    <td><div class="wrapper">
+    	<div class="navigation">
+        <!-- TemplateBeginIf cond="secondnav" -->
+        <p><a href="../breathing/">Breathing</a></p>
+        <p><a href="../credentials/">Credentials</a></p>
+        <p><a href="../history/">History</a></p>
+        <p><a href="../important-holidays/">Important Holidays</a></p>
+        <p><a href="../techniques/">Techniques</a></p>
+        <p><a href="../indexhome.html">Main Page</a></p>
+        <!-- TemplateEndIf --></div>
+     </div>  </td>
+    <td><div class="wrapper">
+        <div class="content"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
+        </div>
+     </div>  </td>
+  </tr>
+</table>
+<table width="900" border="5" cellspacing="5" cellpadding="30">
+  <tr>
+    <td><div class="wrapper">
+        <div class="footer">
+        </div>
+    </div>  </td>
   </tr>
 </table>
 </body>

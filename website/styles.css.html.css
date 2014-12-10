@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	background-color: #FCF;
+	margin: 0px;
+	padding: 0px;
+}
